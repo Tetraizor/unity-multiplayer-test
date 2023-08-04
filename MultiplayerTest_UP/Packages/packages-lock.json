@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.tetraizor.monosingleton": {
+      "version": "https://github.com/tetraizordev/com.Tetraizor.MonoSingleton.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "78eec321e9f2fecd80a11ac40d74fb096b02f419"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -157,6 +164,22 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.vscode": {
+      "version": "1.2.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.6.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
