@@ -48,10 +48,10 @@ namespace Tetraizor.Entity
             _humanoidRendererController.SetLookRotation(lookDirection);
         }
 
-        protected void ProcessMovementData(PlayerMovementData playerMovementData)
+        protected void ProcessMovementData(EntityMovementData entityMovementData)
         {
-            SetPosition(playerMovementData.GetPosition());
-            Look(playerMovementData.GetRotation());
+            SetPosition(entityMovementData.GetPosition());
+            Look(entityMovementData.GetRotation());
         }
         
         #endregion

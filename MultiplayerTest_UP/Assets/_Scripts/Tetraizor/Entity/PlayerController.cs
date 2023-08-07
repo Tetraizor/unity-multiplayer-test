@@ -59,7 +59,7 @@ namespace Tetraizor.Entity
                 (Mathf.Atan2(lookDifferenceVector.y, lookDifferenceVector.x) * Mathf.Rad2Deg);
 
             // Move the humanoid.
-            var playerMovementData = new PlayerMovementData((Vector2)transform.position + (finalSpeed * Time.deltaTime * movementDirection), lookDifferenceAngles);
+            var playerMovementData = new EntityMovementData((Vector2)transform.position + (finalSpeed * Time.deltaTime * movementDirection), lookDifferenceAngles);
             ProcessMovementData(playerMovementData);
         }
 

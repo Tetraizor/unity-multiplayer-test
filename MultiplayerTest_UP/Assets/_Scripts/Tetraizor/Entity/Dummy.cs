@@ -23,7 +23,7 @@ namespace Tetraizor.Entity
                         Mathf.Sin(Mathf.PI * timer * .2f),
                         Mathf.Cos(Mathf.PI * timer * .2f)
                         ) * 5;
-                    ProcessMovementData(new PlayerMovementData(targetPosition, timer * 36));
+                    ProcessMovementData(new EntityMovementData(targetPosition, timer * 36));
                     
                     timer += Time.deltaTime;
                     yield return null;
